@@ -31,5 +31,23 @@ public class PageController {
         System.out.println("Service page handler");
         return "service";
     }
+    
+    @RequestMapping("/contact")
+    public String contactPage() {
+        System.out.println("Service page handler");
+        return "contact";
+    }
+
+    @RequestMapping("/login")
+    public String loginPage() {
+        System.out.println("Service page handler");
+        return "login";
+    }
+
+    @RequestMapping("/register")
+    public String registerPage() {
+        System.out.println("Service page handler");
+        return "register";
+    }
 
 }
